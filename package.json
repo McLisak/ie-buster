@@ -1,0 +1,15 @@
+{
+  "name": "ie-buster",
+  "version": "1.0.0",
+  "description": "Hate supporting IE? Show IE users a message to download modern browser.",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/McLisak/ie-buster.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://github.com/McLisak/ie-buster#readme"
+}

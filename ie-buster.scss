@@ -1,0 +1,44 @@
+body.ie-busted {
+  overflow: hidden;
+  pointer-events: none;
+}
+#ie-buster {
+  color: white;
+  font-size: 18px;
+  position: fixed;
+  z-index: 999;
+  display: flex;
+  padding: 20px;
+  flex-direction: column;
+  // justify-content: center;
+  align-items: center;
+  text-align: center;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: auto;
+  pointer-events: all;
+  background: radial-gradient(at bottom right, rgba(163, 27, 27, 1) 0%, rgba(232, 84, 84, 1) 100%);
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+  h2 {
+    font-size: 3em;
+  }
+  h3 {
+    font-size: 2.4em;
+  }
+  > div {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+  }
+  a {
+    font-weight: bold;
+    padding: 20px 15px;
+    margin: 10px 0;
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 5px;
+  }
+}
